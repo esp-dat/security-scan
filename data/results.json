@@ -1,0 +1,1204 @@
+{
+  "generatedAt": "2026-04-22T09:48:57.133Z",
+  "target": "https://app.cxgenie.ai/",
+  "summary": {
+    "endpointsDiscovered": 20,
+    "endpointsValidated": 7,
+    "vulnerabilities": 6,
+    "highestScore": 20
+  },
+  "runMeta": {
+    "crawlerVisited": 1,
+    "fuzzCases": 29,
+    "deadEndpoints": 13
+  },
+  "endpoints": [
+    {
+      "path": "/api/v1/customer-profiles/set",
+      "method": "PUT",
+      "url": "https://tracking.api.founder-os.ai/api/v1/customer-profiles/set",
+      "sampleRequestBody": null,
+      "sources": [
+        "network"
+      ],
+      "status": 400,
+      "validatedMethod": "PUT",
+      "sample": "{\"message\":\"Unexpected token 'n', \\\"null\\\" is not valid JSON\",\"error\":\"Bad Request\",\"statusCode\":400,\"timestamp\":\"2026-04-22T09:48:54.317Z\",\"path\":\"/api/v1/customer-profiles/set\"}",
+      "auth": "UNKNOWN",
+      "score": 20,
+      "findingCount": 1,
+      "aiSuggestions": [
+        "Run ID mutation to test object-level authorization."
+      ],
+      "aiResponseHints": [
+        "Potential sensitive data exposure in response body."
+      ]
+    },
+    {
+      "path": "/api/v1/flows/available-flow",
+      "method": "POST",
+      "url": "https://tracking.api.founder-os.ai/api/v1/flows/available-flow",
+      "sampleRequestBody": "{\"brand_id\":340,\"session_id\":\"bc38f3be-c8d4-475f-8ba5-c28e01e39805\",\"url\":\"https://app.cxgenie.ai/workspaces/0d84f824-27f2-4723-a46f-166099577b45/help-desk?t=live-chat&type=ALL\"}",
+      "sources": [
+        "network"
+      ],
+      "status": 400,
+      "validatedMethod": "POST",
+      "sample": "{\"message\":[\"url should not be empty\",\"url must be a string\"],\"error\":\"Bad Request\",\"statusCode\":400,\"timestamp\":\"2026-04-22T09:48:54.353Z\",\"path\":\"/api/v1/flows/available-flow\"}",
+      "auth": "UNKNOWN",
+      "score": 0,
+      "findingCount": 0,
+      "aiSuggestions": [
+        "Apply baseline method/header fuzzing."
+      ],
+      "aiResponseHints": []
+    },
+    {
+      "path": "/api/v1/notifications/unread",
+      "method": "GET",
+      "url": "https://gateway.cxgenie.ai/api/v1/notifications/unread?workspace_id=0d84f824-27f2-4723-a46f-166099577b45",
+      "sampleRequestBody": null,
+      "sources": [
+        "network",
+        "ai"
+      ],
+      "status": 400,
+      "validatedMethod": "GET",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"http-exception\",\"message\":\"Unexpected token 'n', \\\"null\\\" is not valid JSON\",\"data\":{\"message\":\"Unexpected token 'n', \\\"null\\\" is not valid JSON\",\"error\":\"Bad Request\",\"statusCode\":400}}}",
+      "auth": "UNKNOWN",
+      "score": 20,
+      "findingCount": 1,
+      "aiSuggestions": [
+        "Apply baseline method/header fuzzing."
+      ],
+      "aiResponseHints": [
+        "Possible verbose error handling in production endpoint.",
+        "Potential sensitive data exposure in response body."
+      ]
+    },
+    {
+      "path": "/api/v1/users/me",
+      "method": "GET",
+      "url": "https://gateway.cxgenie.ai/api/v1/users/me",
+      "sampleRequestBody": null,
+      "sources": [
+        "network",
+        "ai"
+      ],
+      "status": 400,
+      "validatedMethod": "GET",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"http-exception\",\"message\":\"Unexpected token 'n', \\\"null\\\" is not valid JSON\",\"data\":{\"message\":\"Unexpected token 'n', \\\"null\\\" is not valid JSON\",\"error\":\"Bad Request\",\"statusCode\":400}}}",
+      "auth": "UNKNOWN",
+      "score": 20,
+      "findingCount": 1,
+      "aiSuggestions": [
+        "Run ID mutation to test object-level authorization."
+      ],
+      "aiResponseHints": [
+        "Possible verbose error handling in production endpoint.",
+        "Potential sensitive data exposure in response body."
+      ]
+    },
+    {
+      "path": "/api/v1/packages/public",
+      "method": "GET",
+      "url": "https://gateway.cxgenie.ai/api/v1/packages/public",
+      "sampleRequestBody": null,
+      "sources": [
+        "network",
+        "ai"
+      ],
+      "status": 400,
+      "validatedMethod": "GET",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"http-exception\",\"message\":\"Unexpected token 'n', \\\"null\\\" is not valid JSON\",\"data\":{\"message\":\"Unexpected token 'n', \\\"null\\\" is not valid JSON\",\"error\":\"Bad Request\",\"statusCode\":400}}}",
+      "auth": "UNKNOWN",
+      "score": 20,
+      "findingCount": 1,
+      "aiSuggestions": [
+        "Apply baseline method/header fuzzing."
+      ],
+      "aiResponseHints": [
+        "Possible verbose error handling in production endpoint.",
+        "Potential sensitive data exposure in response body."
+      ]
+    },
+    {
+      "path": "/api/v1/pop-up-settings/brands/340",
+      "method": "GET",
+      "url": "https://tracking.api.founder-os.ai/api/v1/pop-up-settings/brands/340",
+      "sampleRequestBody": null,
+      "sources": [
+        "network",
+        "ai"
+      ],
+      "status": 400,
+      "validatedMethod": "GET",
+      "sample": "{\"message\":\"Unexpected token 'n', \\\"null\\\" is not valid JSON\",\"error\":\"Bad Request\",\"statusCode\":400,\"timestamp\":\"2026-04-22T09:48:55.265Z\",\"path\":\"/api/v1/pop-up-settings/brands/340\"}",
+      "auth": "UNKNOWN",
+      "score": 20,
+      "findingCount": 1,
+      "aiSuggestions": [
+        "Apply baseline method/header fuzzing."
+      ],
+      "aiResponseHints": [
+        "Potential sensitive data exposure in response body."
+      ]
+    },
+    {
+      "path": "/api/v1/cookies-consent/public/340",
+      "method": "GET",
+      "url": "https://tracking.api.founder-os.ai/api/v1/cookies-consent/public/340",
+      "sampleRequestBody": null,
+      "sources": [
+        "network",
+        "ai"
+      ],
+      "status": 400,
+      "validatedMethod": "GET",
+      "sample": "{\"message\":\"Unexpected token 'n', \\\"null\\\" is not valid JSON\",\"error\":\"Bad Request\",\"statusCode\":400,\"timestamp\":\"2026-04-22T09:48:55.298Z\",\"path\":\"/api/v1/cookies-consent/public/340\"}",
+      "auth": "UNKNOWN",
+      "score": 20,
+      "findingCount": 1,
+      "aiSuggestions": [
+        "Apply baseline method/header fuzzing."
+      ],
+      "aiResponseHints": [
+        "Potential sensitive data exposure in response body."
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "type": "DATA_LEAK",
+      "severity": "MEDIUM",
+      "path": "/api/v1/customer-profiles/set",
+      "confidence": 0.72,
+      "evidence": "Potential token indicator in response payload"
+    },
+    {
+      "type": "DATA_LEAK",
+      "severity": "MEDIUM",
+      "path": "/api/v1/notifications/unread",
+      "confidence": 0.72,
+      "evidence": "Potential token indicator in response payload"
+    },
+    {
+      "type": "DATA_LEAK",
+      "severity": "MEDIUM",
+      "path": "/api/v1/users/me",
+      "confidence": 0.72,
+      "evidence": "Potential token indicator in response payload"
+    },
+    {
+      "type": "DATA_LEAK",
+      "severity": "MEDIUM",
+      "path": "/api/v1/packages/public",
+      "confidence": 0.72,
+      "evidence": "Potential token indicator in response payload"
+    },
+    {
+      "type": "DATA_LEAK",
+      "severity": "MEDIUM",
+      "path": "/api/v1/pop-up-settings/brands/340",
+      "confidence": 0.72,
+      "evidence": "Potential token indicator in response payload"
+    },
+    {
+      "type": "DATA_LEAK",
+      "severity": "MEDIUM",
+      "path": "/api/v1/cookies-consent/public/340",
+      "confidence": 0.72,
+      "evidence": "Potential token indicator in response payload"
+    }
+  ],
+  "auth": [
+    {
+      "path": "/api/v1/customer-profiles/set",
+      "auth": "UNKNOWN",
+      "statuses": [
+        400,
+        404,
+        400,
+        400
+      ]
+    },
+    {
+      "path": "/api/v1/flows/available-flow",
+      "auth": "UNKNOWN",
+      "statuses": [
+        400,
+        404,
+        400,
+        400
+      ]
+    },
+    {
+      "path": "/api/v1/notifications/unread",
+      "auth": "UNKNOWN",
+      "statuses": [
+        400,
+        400,
+        400
+      ]
+    },
+    {
+      "path": "/api/v1/users/me",
+      "auth": "UNKNOWN",
+      "statuses": [
+        400,
+        400,
+        400
+      ]
+    },
+    {
+      "path": "/api/v1/packages/public",
+      "auth": "UNKNOWN",
+      "statuses": [
+        400,
+        400,
+        400
+      ]
+    },
+    {
+      "path": "/api/v1/pop-up-settings/brands/340",
+      "auth": "UNKNOWN",
+      "statuses": [
+        400,
+        400,
+        400
+      ]
+    },
+    {
+      "path": "/api/v1/cookies-consent/public/340",
+      "auth": "UNKNOWN",
+      "statuses": [
+        400,
+        400,
+        400
+      ]
+    },
+    {
+      "path": "/api/v1/users",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/api/v1/orders",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/api/v1/profile",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/api/v1/admin",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/api/v1/settings",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/api/v1/reports",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/api/v1/billing",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/api/users/me",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/api/users/1",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/api/users/2",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/api/admin/users",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    }
+  ],
+  "graph": {
+    "nodes": [
+      {
+        "id": "/api/v1/customer-profiles/set",
+        "path": "/api/v1/customer-profiles/set",
+        "hits": 13
+      },
+      {
+        "id": "/api/v1/customer-profiles",
+        "path": "/api/v1/customer-profiles",
+        "hits": 0
+      },
+      {
+        "id": "/api/v1/flows/available-flow",
+        "path": "/api/v1/flows/available-flow",
+        "hits": 14
+      },
+      {
+        "id": "/api/v1/flows",
+        "path": "/api/v1/flows",
+        "hits": 0
+      },
+      {
+        "id": "/api/v1/notifications/unread",
+        "path": "/api/v1/notifications/unread",
+        "hits": 5
+      },
+      {
+        "id": "/api/v1/notifications",
+        "path": "/api/v1/notifications",
+        "hits": 0
+      },
+      {
+        "id": "/api/v1/users/me",
+        "path": "/api/v1/users/me",
+        "hits": 4
+      },
+      {
+        "id": "/api/v1/users",
+        "path": "/api/v1/users",
+        "hits": 0
+      },
+      {
+        "id": "/api/v1/packages/public",
+        "path": "/api/v1/packages/public",
+        "hits": 2
+      },
+      {
+        "id": "/api/v1/packages",
+        "path": "/api/v1/packages",
+        "hits": 0
+      },
+      {
+        "id": "/api/v1/pop-up-settings/brands/340",
+        "path": "/api/v1/pop-up-settings/brands/340",
+        "hits": 2
+      },
+      {
+        "id": "/api/v1/pop-up-settings/brands",
+        "path": "/api/v1/pop-up-settings/brands",
+        "hits": 0
+      },
+      {
+        "id": "/api/v1/cookies-consent/public/340",
+        "path": "/api/v1/cookies-consent/public/340",
+        "hits": 2
+      },
+      {
+        "id": "/api/v1/cookies-consent/public",
+        "path": "/api/v1/cookies-consent/public",
+        "hits": 0
+      },
+      {
+        "id": "/api/v1/automation-tags/check-automation-tags",
+        "path": "/api/v1/automation-tags/check-automation-tags",
+        "hits": 10
+      },
+      {
+        "id": "/api/v1/automation-tags",
+        "path": "/api/v1/automation-tags",
+        "hits": 0
+      },
+      {
+        "id": "/auth/api/v1/auth/sign-in",
+        "path": "/auth/api/v1/auth/sign-in",
+        "hits": 1
+      },
+      {
+        "id": "/auth/api/v1/auth",
+        "path": "/auth/api/v1/auth",
+        "hits": 0
+      },
+      {
+        "id": "/workspace/api/v1/extra-packages",
+        "path": "/workspace/api/v1/extra-packages",
+        "hits": 8
+      },
+      {
+        "id": "/workspace/api/v1",
+        "path": "/workspace/api/v1",
+        "hits": 0
+      },
+      {
+        "id": "/api/v1/global-variables/public/customer",
+        "path": "/api/v1/global-variables/public/customer",
+        "hits": 8
+      },
+      {
+        "id": "/api/v1/global-variables/public",
+        "path": "/api/v1/global-variables/public",
+        "hits": 0
+      },
+      {
+        "id": "/workspace/api/v1/users/workspaces",
+        "path": "/workspace/api/v1/users/workspaces",
+        "hits": 4
+      },
+      {
+        "id": "/workspace/api/v1/users",
+        "path": "/workspace/api/v1/users",
+        "hits": 0
+      },
+      {
+        "id": "/api/v1/working-hours-settings",
+        "path": "/api/v1/working-hours-settings",
+        "hits": 3
+      },
+      {
+        "id": "/api/v1",
+        "path": "/api/v1",
+        "hits": 0
+      },
+      {
+        "id": "/workspace/api/v2/stripe/subscriptions/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947",
+        "path": "/workspace/api/v2/stripe/subscriptions/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947",
+        "hits": 2
+      },
+      {
+        "id": "/workspace/api/v2/stripe/subscriptions/workspaces",
+        "path": "/workspace/api/v2/stripe/subscriptions/workspaces",
+        "hits": 0
+      },
+      {
+        "id": "/api/v1/affiliates/links",
+        "path": "/api/v1/affiliates/links",
+        "hits": 4
+      },
+      {
+        "id": "/api/v1/affiliates",
+        "path": "/api/v1/affiliates",
+        "hits": 0
+      },
+      {
+        "id": "/api/v1/reports/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947/summaries",
+        "path": "/api/v1/reports/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947/summaries",
+        "hits": 2
+      },
+      {
+        "id": "/api/v1/reports/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947",
+        "path": "/api/v1/reports/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947",
+        "hits": 0
+      },
+      {
+        "id": "/api/v1/users/status",
+        "path": "/api/v1/users/status",
+        "hits": 4
+      },
+      {
+        "id": "/workspace/api/v1/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947/add-ons",
+        "path": "/workspace/api/v1/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947/add-ons",
+        "hits": 2
+      },
+      {
+        "id": "/workspace/api/v1/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947",
+        "path": "/workspace/api/v1/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947",
+        "hits": 4
+      },
+      {
+        "id": "/workspace/api/v1/workspaces",
+        "path": "/workspace/api/v1/workspaces",
+        "hits": 0
+      },
+      {
+        "id": "/workspace/api/v1/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947/members",
+        "path": "/workspace/api/v1/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947/members",
+        "hits": 2
+      },
+      {
+        "id": "/api/v1/sites/workspace/83dc2857-4085-4688-ab21-fc4dc8cd8947/all",
+        "path": "/api/v1/sites/workspace/83dc2857-4085-4688-ab21-fc4dc8cd8947/all",
+        "hits": 2
+      },
+      {
+        "id": "/api/v1/sites/workspace/83dc2857-4085-4688-ab21-fc4dc8cd8947",
+        "path": "/api/v1/sites/workspace/83dc2857-4085-4688-ab21-fc4dc8cd8947",
+        "hits": 0
+      },
+      {
+        "id": "/api/v1/tags/all",
+        "path": "/api/v1/tags/all",
+        "hits": 4
+      },
+      {
+        "id": "/api/v1/tags",
+        "path": "/api/v1/tags",
+        "hits": 0
+      },
+      {
+        "id": "/workspace/api/v1/add-ons",
+        "path": "/workspace/api/v1/add-ons",
+        "hits": 4
+      },
+      {
+        "id": "/workspace/api/v1/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947/member-permissions/me",
+        "path": "/workspace/api/v1/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947/member-permissions/me",
+        "hits": 2
+      },
+      {
+        "id": "/workspace/api/v1/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947/member-permissions",
+        "path": "/workspace/api/v1/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947/member-permissions",
+        "hits": 0
+      },
+      {
+        "id": "/api/v1/bots/all-bots",
+        "path": "/api/v1/bots/all-bots",
+        "hits": 4
+      },
+      {
+        "id": "/api/v1/bots",
+        "path": "/api/v1/bots",
+        "hits": 4
+      },
+      {
+        "id": "/api/v1/social-accounts/all",
+        "path": "/api/v1/social-accounts/all",
+        "hits": 4
+      },
+      {
+        "id": "/api/v1/social-accounts",
+        "path": "/api/v1/social-accounts",
+        "hits": 0
+      },
+      {
+        "id": "/api/v1/categories/all",
+        "path": "/api/v1/categories/all",
+        "hits": 4
+      },
+      {
+        "id": "/api/v1/categories",
+        "path": "/api/v1/categories",
+        "hits": 0
+      },
+      {
+        "id": "/api/v1/translation-ticket-default",
+        "path": "/api/v1/translation-ticket-default",
+        "hits": 4
+      },
+      {
+        "id": "/api/v1/group-chats/count",
+        "path": "/api/v1/group-chats/count",
+        "hits": 2
+      },
+      {
+        "id": "/api/v1/group-chats",
+        "path": "/api/v1/group-chats",
+        "hits": 0
+      },
+      {
+        "id": "/api/v1/teams",
+        "path": "/api/v1/teams",
+        "hits": 4
+      },
+      {
+        "id": "/api/v1/view",
+        "path": "/api/v1/view",
+        "hits": 2
+      },
+      {
+        "id": "/api/v1/customer-tags/all",
+        "path": "/api/v1/customer-tags/all",
+        "hits": 4
+      },
+      {
+        "id": "/api/v1/customer-tags",
+        "path": "/api/v1/customer-tags",
+        "hits": 0
+      },
+      {
+        "id": "/workspace/api/v1/workspaces/0d84f824-27f2-4723-a46f-166099577b45/members",
+        "path": "/workspace/api/v1/workspaces/0d84f824-27f2-4723-a46f-166099577b45/members",
+        "hits": 2
+      },
+      {
+        "id": "/workspace/api/v1/workspaces/0d84f824-27f2-4723-a46f-166099577b45",
+        "path": "/workspace/api/v1/workspaces/0d84f824-27f2-4723-a46f-166099577b45",
+        "hits": 4
+      },
+      {
+        "id": "/api/v1/sites/workspace/0d84f824-27f2-4723-a46f-166099577b45/all",
+        "path": "/api/v1/sites/workspace/0d84f824-27f2-4723-a46f-166099577b45/all",
+        "hits": 2
+      },
+      {
+        "id": "/api/v1/sites/workspace/0d84f824-27f2-4723-a46f-166099577b45",
+        "path": "/api/v1/sites/workspace/0d84f824-27f2-4723-a46f-166099577b45",
+        "hits": 0
+      },
+      {
+        "id": "/workspace/api/v1/workspaces/0d84f824-27f2-4723-a46f-166099577b45/member-permissions/me",
+        "path": "/workspace/api/v1/workspaces/0d84f824-27f2-4723-a46f-166099577b45/member-permissions/me",
+        "hits": 2
+      },
+      {
+        "id": "/workspace/api/v1/workspaces/0d84f824-27f2-4723-a46f-166099577b45/member-permissions",
+        "path": "/workspace/api/v1/workspaces/0d84f824-27f2-4723-a46f-166099577b45/member-permissions",
+        "hits": 0
+      },
+      {
+        "id": "/api/v1/chat-sessions/list",
+        "path": "/api/v1/chat-sessions/list",
+        "hits": 2
+      },
+      {
+        "id": "/api/v1/chat-sessions",
+        "path": "/api/v1/chat-sessions",
+        "hits": 0
+      },
+      {
+        "id": "/workspace/api/v2/stripe/subscriptions/workspaces/0d84f824-27f2-4723-a46f-166099577b45",
+        "path": "/workspace/api/v2/stripe/subscriptions/workspaces/0d84f824-27f2-4723-a46f-166099577b45",
+        "hits": 2
+      },
+      {
+        "id": "/api/v1/reports/workspaces/0d84f824-27f2-4723-a46f-166099577b45/summaries",
+        "path": "/api/v1/reports/workspaces/0d84f824-27f2-4723-a46f-166099577b45/summaries",
+        "hits": 2
+      },
+      {
+        "id": "/api/v1/reports/workspaces/0d84f824-27f2-4723-a46f-166099577b45",
+        "path": "/api/v1/reports/workspaces/0d84f824-27f2-4723-a46f-166099577b45",
+        "hits": 0
+      },
+      {
+        "id": "/workspace/api/v1/workspaces/0d84f824-27f2-4723-a46f-166099577b45/add-ons",
+        "path": "/workspace/api/v1/workspaces/0d84f824-27f2-4723-a46f-166099577b45/add-ons",
+        "hits": 2
+      },
+      {
+        "id": "/api/v1/bots/dashboard",
+        "path": "/api/v1/bots/dashboard",
+        "hits": 2
+      }
+    ],
+    "edges": [
+      {
+        "from": "/api/v1/customer-profiles",
+        "to": "/api/v1/customer-profiles/set",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1/flows",
+        "to": "/api/v1/flows/available-flow",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1/notifications",
+        "to": "/api/v1/notifications/unread",
+        "weight": 2
+      },
+      {
+        "from": "/api/v1/users",
+        "to": "/api/v1/users/me",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1/packages",
+        "to": "/api/v1/packages/public",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1/pop-up-settings/brands",
+        "to": "/api/v1/pop-up-settings/brands/340",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1/cookies-consent/public",
+        "to": "/api/v1/cookies-consent/public/340",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1/automation-tags",
+        "to": "/api/v1/automation-tags/check-automation-tags",
+        "weight": 1
+      },
+      {
+        "from": "/auth/api/v1/auth",
+        "to": "/auth/api/v1/auth/sign-in",
+        "weight": 1
+      },
+      {
+        "from": "/workspace/api/v1",
+        "to": "/workspace/api/v1/extra-packages",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1/global-variables/public",
+        "to": "/api/v1/global-variables/public/customer",
+        "weight": 1
+      },
+      {
+        "from": "/workspace/api/v1/users",
+        "to": "/workspace/api/v1/users/workspaces",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1",
+        "to": "/api/v1/working-hours-settings",
+        "weight": 2
+      },
+      {
+        "from": "/workspace/api/v2/stripe/subscriptions/workspaces",
+        "to": "/workspace/api/v2/stripe/subscriptions/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1/affiliates",
+        "to": "/api/v1/affiliates/links",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1/reports/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947",
+        "to": "/api/v1/reports/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947/summaries",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1/users",
+        "to": "/api/v1/users/status",
+        "weight": 2
+      },
+      {
+        "from": "/workspace/api/v1/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947",
+        "to": "/workspace/api/v1/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947/add-ons",
+        "weight": 1
+      },
+      {
+        "from": "/workspace/api/v1/workspaces",
+        "to": "/workspace/api/v1/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947",
+        "weight": 1
+      },
+      {
+        "from": "/workspace/api/v1/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947",
+        "to": "/workspace/api/v1/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947/members",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1/sites/workspace/83dc2857-4085-4688-ab21-fc4dc8cd8947",
+        "to": "/api/v1/sites/workspace/83dc2857-4085-4688-ab21-fc4dc8cd8947/all",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1/tags",
+        "to": "/api/v1/tags/all",
+        "weight": 2
+      },
+      {
+        "from": "/workspace/api/v1",
+        "to": "/workspace/api/v1/add-ons",
+        "weight": 2
+      },
+      {
+        "from": "/workspace/api/v1/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947/member-permissions",
+        "to": "/workspace/api/v1/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947/member-permissions/me",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1/bots",
+        "to": "/api/v1/bots/all-bots",
+        "weight": 2
+      },
+      {
+        "from": "/api/v1/social-accounts",
+        "to": "/api/v1/social-accounts/all",
+        "weight": 2
+      },
+      {
+        "from": "/api/v1/categories",
+        "to": "/api/v1/categories/all",
+        "weight": 2
+      },
+      {
+        "from": "/api/v1",
+        "to": "/api/v1/translation-ticket-default",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1/group-chats",
+        "to": "/api/v1/group-chats/count",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1",
+        "to": "/api/v1/teams",
+        "weight": 2
+      },
+      {
+        "from": "/api/v1",
+        "to": "/api/v1/view",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1/customer-tags",
+        "to": "/api/v1/customer-tags/all",
+        "weight": 2
+      },
+      {
+        "from": "/api/v1",
+        "to": "/api/v1/bots",
+        "weight": 2
+      },
+      {
+        "from": "/workspace/api/v1/workspaces/0d84f824-27f2-4723-a46f-166099577b45",
+        "to": "/workspace/api/v1/workspaces/0d84f824-27f2-4723-a46f-166099577b45/members",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1/sites/workspace/0d84f824-27f2-4723-a46f-166099577b45",
+        "to": "/api/v1/sites/workspace/0d84f824-27f2-4723-a46f-166099577b45/all",
+        "weight": 1
+      },
+      {
+        "from": "/workspace/api/v1/workspaces/0d84f824-27f2-4723-a46f-166099577b45/member-permissions",
+        "to": "/workspace/api/v1/workspaces/0d84f824-27f2-4723-a46f-166099577b45/member-permissions/me",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1/chat-sessions",
+        "to": "/api/v1/chat-sessions/list",
+        "weight": 1
+      },
+      {
+        "from": "/workspace/api/v2/stripe/subscriptions/workspaces",
+        "to": "/workspace/api/v2/stripe/subscriptions/workspaces/0d84f824-27f2-4723-a46f-166099577b45",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1/reports/workspaces/0d84f824-27f2-4723-a46f-166099577b45",
+        "to": "/api/v1/reports/workspaces/0d84f824-27f2-4723-a46f-166099577b45/summaries",
+        "weight": 1
+      },
+      {
+        "from": "/workspace/api/v1/workspaces/0d84f824-27f2-4723-a46f-166099577b45",
+        "to": "/workspace/api/v1/workspaces/0d84f824-27f2-4723-a46f-166099577b45/add-ons",
+        "weight": 1
+      },
+      {
+        "from": "/workspace/api/v1/workspaces",
+        "to": "/workspace/api/v1/workspaces/0d84f824-27f2-4723-a46f-166099577b45",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1/bots",
+        "to": "/api/v1/bots/dashboard",
+        "weight": 1
+      }
+    ]
+  },
+  "raw": {
+    "crawler": {
+      "visited": [
+        "https://app.cxgenie.ai/"
+      ],
+      "links": [],
+      "activity": [
+        {
+          "url": "https://app.cxgenie.ai/",
+          "path": "/",
+          "depth": 0,
+          "clicked": 0,
+          "submitted": 0,
+          "linkCount": 0
+        }
+      ]
+    },
+    "validationAttempts": [
+      {
+        "path": "/api/v1/customer-profiles/set",
+        "url": "https://tracking.api.founder-os.ai/api/v1/customer-profiles/set",
+        "method": "PUT",
+        "status": 400,
+        "durationMs": 112,
+        "error": null
+      },
+      {
+        "path": "/api/v1/flows/available-flow",
+        "url": "https://tracking.api.founder-os.ai/api/v1/flows/available-flow",
+        "method": "POST",
+        "status": 400,
+        "durationMs": 36,
+        "error": null
+      },
+      {
+        "path": "/api/v1/notifications/unread",
+        "url": "https://gateway.cxgenie.ai/api/v1/notifications/unread?workspace_id=0d84f824-27f2-4723-a46f-166099577b45",
+        "method": "GET",
+        "status": 400,
+        "durationMs": 603,
+        "error": null
+      },
+      {
+        "path": "/api/v1/users/me",
+        "url": "https://gateway.cxgenie.ai/api/v1/users/me",
+        "method": "GET",
+        "status": 400,
+        "durationMs": 193,
+        "error": null
+      },
+      {
+        "path": "/api/v1/packages/public",
+        "url": "https://gateway.cxgenie.ai/api/v1/packages/public",
+        "method": "GET",
+        "status": 400,
+        "durationMs": 80,
+        "error": null
+      },
+      {
+        "path": "/api/v1/pop-up-settings/brands/340",
+        "url": "https://tracking.api.founder-os.ai/api/v1/pop-up-settings/brands/340",
+        "method": "GET",
+        "status": 400,
+        "durationMs": 32,
+        "error": null
+      },
+      {
+        "path": "/api/v1/cookies-consent/public/340",
+        "url": "https://tracking.api.founder-os.ai/api/v1/cookies-consent/public/340",
+        "method": "GET",
+        "status": 400,
+        "durationMs": 32,
+        "error": null
+      },
+      {
+        "path": "/api/v1/users",
+        "url": "https://app.cxgenie.ai/api/v1/users",
+        "method": "GET",
+        "status": 404,
+        "durationMs": 158,
+        "error": null
+      },
+      {
+        "path": "/api/v1/orders",
+        "url": "https://app.cxgenie.ai/api/v1/orders",
+        "method": "GET",
+        "status": 404,
+        "durationMs": 64,
+        "error": null
+      },
+      {
+        "path": "/api/v1/profile",
+        "url": "https://app.cxgenie.ai/api/v1/profile",
+        "method": "GET",
+        "status": 404,
+        "durationMs": 44,
+        "error": null
+      },
+      {
+        "path": "/api/v1/admin",
+        "url": "https://app.cxgenie.ai/api/v1/admin",
+        "method": "GET",
+        "status": 404,
+        "durationMs": 40,
+        "error": null
+      },
+      {
+        "path": "/api/v1/settings",
+        "url": "https://app.cxgenie.ai/api/v1/settings",
+        "method": "GET",
+        "status": 404,
+        "durationMs": 40,
+        "error": null
+      },
+      {
+        "path": "/api/v1/reports",
+        "url": "https://app.cxgenie.ai/api/v1/reports",
+        "method": "GET",
+        "status": 404,
+        "durationMs": 54,
+        "error": null
+      },
+      {
+        "path": "/api/v1/billing",
+        "url": "https://app.cxgenie.ai/api/v1/billing",
+        "method": "GET",
+        "status": 404,
+        "durationMs": 42,
+        "error": null
+      },
+      {
+        "path": "/api/v1/customer-profiles/set",
+        "url": "https://app.cxgenie.ai/api/v1/customer-profiles/set",
+        "method": "GET",
+        "status": 404,
+        "durationMs": 39,
+        "error": null
+      },
+      {
+        "path": "/api/v1/flows/available-flow",
+        "url": "https://app.cxgenie.ai/api/v1/flows/available-flow",
+        "method": "GET",
+        "status": 404,
+        "durationMs": 56,
+        "error": null
+      },
+      {
+        "path": "/api/users/me",
+        "url": "https://app.cxgenie.ai/api/users/me",
+        "method": "GET",
+        "status": 404,
+        "durationMs": 325,
+        "error": null
+      },
+      {
+        "path": "/api/users/1",
+        "url": "https://app.cxgenie.ai/api/users/1",
+        "method": "GET",
+        "status": 404,
+        "durationMs": 144,
+        "error": null
+      },
+      {
+        "path": "/api/users/2",
+        "url": "https://app.cxgenie.ai/api/users/2",
+        "method": "GET",
+        "status": 404,
+        "durationMs": 41,
+        "error": null
+      },
+      {
+        "path": "/api/admin/users",
+        "url": "https://app.cxgenie.ai/api/admin/users",
+        "method": "GET",
+        "status": 404,
+        "durationMs": 118,
+        "error": null
+      }
+    ],
+    "multiUserResults": [
+      {
+        "path": "/api/v1/customer-profiles/set",
+        "userA": {
+          "status": 400
+        },
+        "userB": {
+          "status": 400
+        },
+        "diff": {
+          "similarity": 1,
+          "lengthDelta": 0,
+          "sameStatus": true
+        }
+      },
+      {
+        "path": "/api/v1/flows/available-flow",
+        "userA": {
+          "status": 400
+        },
+        "userB": {
+          "status": 400
+        },
+        "diff": {
+          "similarity": 1,
+          "lengthDelta": 0,
+          "sameStatus": true
+        }
+      },
+      {
+        "path": "/api/v1/notifications/unread",
+        "userA": {
+          "status": 400
+        },
+        "userB": {
+          "status": 400
+        },
+        "diff": {
+          "similarity": 1,
+          "lengthDelta": 0,
+          "sameStatus": true
+        }
+      },
+      {
+        "path": "/api/v1/users/me",
+        "userA": {
+          "status": 400
+        },
+        "userB": {
+          "status": 400
+        },
+        "diff": {
+          "similarity": 1,
+          "lengthDelta": 0,
+          "sameStatus": true
+        }
+      },
+      {
+        "path": "/api/v1/packages/public",
+        "userA": {
+          "status": 400
+        },
+        "userB": {
+          "status": 400
+        },
+        "diff": {
+          "similarity": 1,
+          "lengthDelta": 0,
+          "sameStatus": true
+        }
+      },
+      {
+        "path": "/api/v1/pop-up-settings/brands/340",
+        "userA": {
+          "status": 400
+        },
+        "userB": {
+          "status": 400
+        },
+        "diff": {
+          "similarity": 1,
+          "lengthDelta": 0,
+          "sameStatus": true
+        }
+      },
+      {
+        "path": "/api/v1/cookies-consent/public/340",
+        "userA": {
+          "status": 400
+        },
+        "userB": {
+          "status": 400
+        },
+        "diff": {
+          "similarity": 1,
+          "lengthDelta": 0,
+          "sameStatus": true
+        }
+      }
+    ]
+  }
+}
