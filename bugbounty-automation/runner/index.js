@@ -20,6 +20,9 @@ const { createLogger } = require('../utils/logger');
 const { saveReport } = require('../utils/saveReport');
 
 const logger = createLogger('runner');
+const STATIC_NOISE_PREFIX = /^\/(?:_next|fonts?|svgs?|inter|s\/inter|script|sdks|sync|sub|gsi|c|en_US)\//i;
+const STATIC_FILE_EXTENSION = /\.(?:js|css|png|jpe?g|gif|svg|ico|woff2?|ttf|map)(?:$|\?)/i;
+const TELEMETRY_PATH = /tracking-session|\/v1\/traces|onesignal|hotjar/i;
 
 function uniqueFindings(findings) {
   const map = new Map();
@@ -28,6 +31,36 @@ function uniqueFindings(findings) {
     map.set(key, finding);
   }
   return Array.from(map.values());
+}
+
+function isApiLikePath(path) {
+  return (
+    /^\/api\//i.test(path) ||
+    /^\/workspace\/api\//i.test(path) ||
+    /^\/auth\/api\//i.test(path) ||
+    /^\/graphql(?:\/|$)/i.test(path) ||
+    /^\/v\d+\//i.test(path)
+  );
+}
+
+function shouldIncludeInApiGraph(path) {
+  if (!path) {
+    return false;
+  }
+
+  if (!isApiLikePath(path)) {
+    return false;
+  }
+
+  if (STATIC_NOISE_PREFIX.test(path) || STATIC_FILE_EXTENSION.test(path)) {
+    return false;
+  }
+
+  if (TELEMETRY_PATH.test(path)) {
+    return false;
+  }
+
+  return true;
 }
 
 async function runScan() {
@@ -46,6 +79,8 @@ async function runScan() {
 
   networkCollector.attach(contexts.userA.page, contexts.userA.id);
   networkCollector.attach(contexts.userB.page, contexts.userB.id);
+
+  let report = null;
 
   try {
     logger.info('Starting crawler');
@@ -109,7 +144,7 @@ async function runScan() {
       multiUserResults
     });
 
-    const networkEndpoints = endpointStore.getAll();
+    const networkEndpoints = endpointStore.getAll().filter((entry) => shouldIncludeInApiGraph(entry.path));
     const graph = buildApiGraph(networkEndpoints);
     const scored = scoreResults({
       endpoints: validation.alive,
@@ -126,7 +161,7 @@ async function runScan() {
       };
     });
 
-    const report = {
+    report = {
       generatedAt: new Date().toISOString(),
       target: config.targetUrl,
       summary: {
@@ -166,6 +201,17 @@ async function runScan() {
 
     return report;
   } finally {
+    if (config.debug.keepBrowserOpen && !browser.__isMock) {
+      if (config.debug.keepBrowserOpenMs > 0) {
+        logger.info(`KEEP_BROWSER_OPEN=true. Holding browser for ${config.debug.keepBrowserOpenMs}ms`);
+        await new Promise((resolve) => setTimeout(resolve, config.debug.keepBrowserOpenMs));
+      } else {
+        logger.info('KEEP_BROWSER_OPEN=true. Browser will stay open until you stop the process (Ctrl+C).');
+        // Intentionally keep browser open for interactive debugging.
+        await new Promise(() => {});
+      }
+    }
+
     await contexts.closeAll();
     await browser.close();
   }

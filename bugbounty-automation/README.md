@@ -88,6 +88,8 @@ Use environment variables if needed:
 - `FUZZING_ENABLED`
 - `FUZZING_MAX_MUTATIONS`
 - `AI_DISCOVERY`
+- `KEEP_BROWSER_OPEN=true` (keep browser open for debug)
+- `KEEP_BROWSER_OPEN_MS=30000` (optional auto-close delay in ms)
 
 ## Notes
 
