@@ -1,0 +1,2221 @@
+{
+  "generatedAt": "2026-04-22T09:35:42.355Z",
+  "target": "https://app.cxgenie.ai/",
+  "summary": {
+    "endpointsDiscovered": 30,
+    "endpointsValidated": 0,
+    "vulnerabilities": 0,
+    "highestScore": 0
+  },
+  "runMeta": {
+    "crawlerVisited": 1,
+    "fuzzCases": 0,
+    "deadEndpoints": 30
+  },
+  "endpoints": [],
+  "findings": [],
+  "auth": [
+    {
+      "path": "/api/v1/notifications/unread",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/v1/traces",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/api/v1/users/me",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/auth/api/v1/auth/sign-in",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/api/v1/customer-profiles/set",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/api/v2/tracking-session/d84da622-5684-4472-8028-bbc8394b2ae3/identify/fdd7bd7e-1c8c-45cf-984f-5bc91650cf54",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/workspace/api/v1/extra-packages",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/api/v1/global-variables/public/customer",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/workspace/api/v1/users/workspaces",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/api/v2/tracking-session-data",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/api/v1/flows/available-flow",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/api/v1/packages/public",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/api/v1/pop-up-settings/brands/340",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/api/v1/cookies-consent/public/340",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/api/users",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/api/orders",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/api/profile",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/api/admin",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/api/settings",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/api/reports",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/api/billing",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/api/users/me",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/api/users/1",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/api/users/2",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/api/admin/users",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/api/orders/1",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/api/orders/2",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/api/orders/search",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/api/admin/audit",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    },
+    {
+      "path": "/api/admin/config",
+      "auth": "UNKNOWN",
+      "statuses": [
+        404
+      ]
+    }
+  ],
+  "graph": {
+    "nodes": [
+      {
+        "id": "/",
+        "path": "/",
+        "hits": 4
+      },
+      {
+        "id": "/api/v1/notifications/unread",
+        "path": "/api/v1/notifications/unread",
+        "hits": 5
+      },
+      {
+        "id": "/api/v1/notifications",
+        "path": "/api/v1/notifications",
+        "hits": 0
+      },
+      {
+        "id": "/v1/traces",
+        "path": "/v1/traces",
+        "hits": 14
+      },
+      {
+        "id": "/v1",
+        "path": "/v1",
+        "hits": 0
+      },
+      {
+        "id": "/api/v1/users/me",
+        "path": "/api/v1/users/me",
+        "hits": 4
+      },
+      {
+        "id": "/api/v1/users",
+        "path": "/api/v1/users",
+        "hits": 0
+      },
+      {
+        "id": "/auth/api/v1/auth/sign-in",
+        "path": "/auth/api/v1/auth/sign-in",
+        "hits": 1
+      },
+      {
+        "id": "/auth/api/v1/auth",
+        "path": "/auth/api/v1/auth",
+        "hits": 0
+      },
+      {
+        "id": "/api/v1/customer-profiles/set",
+        "path": "/api/v1/customer-profiles/set",
+        "hits": 12
+      },
+      {
+        "id": "/api/v1/customer-profiles",
+        "path": "/api/v1/customer-profiles",
+        "hits": 0
+      },
+      {
+        "id": "/api/v2/tracking-session/d84da622-5684-4472-8028-bbc8394b2ae3/identify/fdd7bd7e-1c8c-45cf-984f-5bc91650cf54",
+        "path": "/api/v2/tracking-session/d84da622-5684-4472-8028-bbc8394b2ae3/identify/fdd7bd7e-1c8c-45cf-984f-5bc91650cf54",
+        "hits": 2
+      },
+      {
+        "id": "/api/v2/tracking-session/d84da622-5684-4472-8028-bbc8394b2ae3/identify",
+        "path": "/api/v2/tracking-session/d84da622-5684-4472-8028-bbc8394b2ae3/identify",
+        "hits": 0
+      },
+      {
+        "id": "/workspace/api/v1/extra-packages",
+        "path": "/workspace/api/v1/extra-packages",
+        "hits": 8
+      },
+      {
+        "id": "/workspace/api/v1",
+        "path": "/workspace/api/v1",
+        "hits": 0
+      },
+      {
+        "id": "/api/v1/global-variables/public/customer",
+        "path": "/api/v1/global-variables/public/customer",
+        "hits": 6
+      },
+      {
+        "id": "/api/v1/global-variables/public",
+        "path": "/api/v1/global-variables/public",
+        "hits": 0
+      },
+      {
+        "id": "/workspace/api/v1/users/workspaces",
+        "path": "/workspace/api/v1/users/workspaces",
+        "hits": 4
+      },
+      {
+        "id": "/workspace/api/v1/users",
+        "path": "/workspace/api/v1/users",
+        "hits": 0
+      },
+      {
+        "id": "/inter/inter.css",
+        "path": "/inter/inter.css",
+        "hits": 2
+      },
+      {
+        "id": "/inter",
+        "path": "/inter",
+        "hits": 0
+      },
+      {
+        "id": "/en_US/sdk.js",
+        "path": "/en_US/sdk.js",
+        "hits": 2
+      },
+      {
+        "id": "/en_US",
+        "path": "/en_US",
+        "hits": 0
+      },
+      {
+        "id": "/_next/static/chunks/webpack-52b6c245f09b0817.js",
+        "path": "/_next/static/chunks/webpack-52b6c245f09b0817.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks",
+        "path": "/_next/static/chunks",
+        "hits": 0
+      },
+      {
+        "id": "/_next/static/chunks/framework-f293fd0d457204a1.js",
+        "path": "/_next/static/chunks/framework-f293fd0d457204a1.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/main-941f86c5083b282f.js",
+        "path": "/_next/static/chunks/main-941f86c5083b282f.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/pages/_app-d52d47154d5255a9.js",
+        "path": "/_next/static/chunks/pages/_app-d52d47154d5255a9.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/pages",
+        "path": "/_next/static/chunks/pages",
+        "hits": 0
+      },
+      {
+        "id": "/_next/static/chunks/pages/index-9f63666859a8c3cd.js",
+        "path": "/_next/static/chunks/pages/index-9f63666859a8c3cd.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/NOxY1R98IE0sbMDE3VNY5/_buildManifest.js",
+        "path": "/_next/static/NOxY1R98IE0sbMDE3VNY5/_buildManifest.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/NOxY1R98IE0sbMDE3VNY5",
+        "path": "/_next/static/NOxY1R98IE0sbMDE3VNY5",
+        "hits": 0
+      },
+      {
+        "id": "/_next/static/NOxY1R98IE0sbMDE3VNY5/_ssgManifest.js",
+        "path": "/_next/static/NOxY1R98IE0sbMDE3VNY5/_ssgManifest.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/css/4588879c6d0412a8.css",
+        "path": "/_next/static/css/4588879c6d0412a8.css",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/css",
+        "path": "/_next/static/css",
+        "hits": 0
+      },
+      {
+        "id": "/en_US/bundle/sdk.js/",
+        "path": "/en_US/bundle/sdk.js/",
+        "hits": 2
+      },
+      {
+        "id": "/en_US/bundle",
+        "path": "/en_US/bundle",
+        "hits": 0
+      },
+      {
+        "id": "/api/v2/tracking-session-data",
+        "path": "/api/v2/tracking-session-data",
+        "hits": 15
+      },
+      {
+        "id": "/api/v2",
+        "path": "/api/v2",
+        "hits": 0
+      },
+      {
+        "id": "/inter/font-files/Inter-Italic.woff2",
+        "path": "/inter/font-files/Inter-Italic.woff2",
+        "hits": 4
+      },
+      {
+        "id": "/inter/font-files",
+        "path": "/inter/font-files",
+        "hits": 0
+      },
+      {
+        "id": "/inter/font-files/Inter-SemiBoldItalic.woff2",
+        "path": "/inter/font-files/Inter-SemiBoldItalic.woff2",
+        "hits": 4
+      },
+      {
+        "id": "/fonts/icomoon.ttf",
+        "path": "/fonts/icomoon.ttf",
+        "hits": 2
+      },
+      {
+        "id": "/fonts",
+        "path": "/fonts",
+        "hits": 0
+      },
+      {
+        "id": "/l/font",
+        "path": "/l/font",
+        "hits": 4
+      },
+      {
+        "id": "/l",
+        "path": "/l",
+        "hits": 0
+      },
+      {
+        "id": "/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7W0Q5n-wU.woff2",
+        "path": "/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7W0Q5n-wU.woff2",
+        "hits": 4
+      },
+      {
+        "id": "/s/inter/v20",
+        "path": "/s/inter/v20",
+        "hits": 0
+      },
+      {
+        "id": "/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7W0Q5n-wU.woff2",
+        "path": "/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7W0Q5n-wU.woff2",
+        "hits": 2
+      },
+      {
+        "id": "/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+        "path": "/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+        "hits": 2
+      },
+      {
+        "id": "/api/v1/flows/available-flow",
+        "path": "/api/v1/flows/available-flow",
+        "hits": 12
+      },
+      {
+        "id": "/api/v1/flows",
+        "path": "/api/v1/flows",
+        "hits": 0
+      },
+      {
+        "id": "/sdks/web/v16/OneSignalSDK.page.js",
+        "path": "/sdks/web/v16/OneSignalSDK.page.js",
+        "hits": 2
+      },
+      {
+        "id": "/sdks/web/v16",
+        "path": "/sdks/web/v16",
+        "hits": 0
+      },
+      {
+        "id": "/_next/static/chunks/29107295-4b6b11fb36698fb7.js",
+        "path": "/_next/static/chunks/29107295-4b6b11fb36698fb7.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/7668-72814a544dcf1c57.js",
+        "path": "/_next/static/chunks/7668-72814a544dcf1c57.js",
+        "hits": 4
+      },
+      {
+        "id": "/_next/static/chunks/2081-74786995af3eb7ed.js",
+        "path": "/_next/static/chunks/2081-74786995af3eb7ed.js",
+        "hits": 4
+      },
+      {
+        "id": "/_next/static/chunks/7412-9d0973a44ba6f99d.js",
+        "path": "/_next/static/chunks/7412-9d0973a44ba6f99d.js",
+        "hits": 4
+      },
+      {
+        "id": "/_next/static/chunks/4358-306b70d686b5ed2d.js",
+        "path": "/_next/static/chunks/4358-306b70d686b5ed2d.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/9111-3006f2b80546d592.js",
+        "path": "/_next/static/chunks/9111-3006f2b80546d592.js",
+        "hits": 4
+      },
+      {
+        "id": "/_next/static/chunks/pages/workspaces/%5Bworkspace_id%5D/help-desk-281594299f8aee4f.js",
+        "path": "/_next/static/chunks/pages/workspaces/%5Bworkspace_id%5D/help-desk-281594299f8aee4f.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/pages/workspaces/%5Bworkspace_id%5D",
+        "path": "/_next/static/chunks/pages/workspaces/%5Bworkspace_id%5D",
+        "hits": 0
+      },
+      {
+        "id": "/_next/static/css/f9341942e7029917.css",
+        "path": "/_next/static/css/f9341942e7029917.css",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/3c8ae537.e37cb0fd1ce3af70.js",
+        "path": "/_next/static/chunks/3c8ae537.e37cb0fd1ce3af70.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/css/e6de7a9fc1becc82.css",
+        "path": "/_next/static/css/e6de7a9fc1becc82.css",
+        "hits": 2
+      },
+      {
+        "id": "/css2",
+        "path": "/css2",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/css/6f5acd0ba2996c5e.css",
+        "path": "/_next/static/css/6f5acd0ba2996c5e.css",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/9b6a58c0.db8cdfe2498388e3.js",
+        "path": "/_next/static/chunks/9b6a58c0.db8cdfe2498388e3.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/e4627d95.cd42ad16ce530b8f.js",
+        "path": "/_next/static/chunks/e4627d95.cd42ad16ce530b8f.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/e35b4ce9.b110931f64459cb5.js",
+        "path": "/_next/static/chunks/e35b4ce9.b110931f64459cb5.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/43c93402.17281a76d6b328c9.js",
+        "path": "/_next/static/chunks/43c93402.17281a76d6b328c9.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/635f76e7.18d0f1292c6b6a17.js",
+        "path": "/_next/static/chunks/635f76e7.18d0f1292c6b6a17.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/7cac3590.dbbcde698657ec31.js",
+        "path": "/_next/static/chunks/7cac3590.dbbcde698657ec31.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/6724.f5a56e0ed2b3255e.js",
+        "path": "/_next/static/chunks/6724.f5a56e0ed2b3255e.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/5454.7770bf147c7f7848.js",
+        "path": "/_next/static/chunks/5454.7770bf147c7f7848.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/8624.61203acc3f3029fe.js",
+        "path": "/_next/static/chunks/8624.61203acc3f3029fe.js",
+        "hits": 2
+      },
+      {
+        "id": "/gsi/client",
+        "path": "/gsi/client",
+        "hits": 2
+      },
+      {
+        "id": "/gsi",
+        "path": "/gsi",
+        "hits": 0
+      },
+      {
+        "id": "/rw.js",
+        "path": "/rw.js",
+        "hits": 2
+      },
+      {
+        "id": "/c/hotjar-3627134.js",
+        "path": "/c/hotjar-3627134.js",
+        "hits": 2
+      },
+      {
+        "id": "/c",
+        "path": "/c",
+        "hits": 0
+      },
+      {
+        "id": "/api/v1/packages/public",
+        "path": "/api/v1/packages/public",
+        "hits": 2
+      },
+      {
+        "id": "/api/v1/packages",
+        "path": "/api/v1/packages",
+        "hits": 0
+      },
+      {
+        "id": "/sub/sdk-wcjDAQDAx0nUHHi",
+        "path": "/sub/sdk-wcjDAQDAx0nUHHi",
+        "hits": 1
+      },
+      {
+        "id": "/sub",
+        "path": "/sub",
+        "hits": 0
+      },
+      {
+        "id": "/script/v2/tracker.umd.js",
+        "path": "/script/v2/tracker.umd.js",
+        "hits": 2
+      },
+      {
+        "id": "/script/v2",
+        "path": "/script/v2",
+        "hits": 0
+      },
+      {
+        "id": "/sdks/web/v16/OneSignalSDK.page.es6.js",
+        "path": "/sdks/web/v16/OneSignalSDK.page.es6.js",
+        "hits": 2
+      },
+      {
+        "id": "/modules.6a0f3932cb1341a35c18.js",
+        "path": "/modules.6a0f3932cb1341a35c18.js",
+        "hits": 2
+      },
+      {
+        "id": "/sync/85f603bb-8eaa-4791-84a0-a1c4dbdf06cc/web",
+        "path": "/sync/85f603bb-8eaa-4791-84a0-a1c4dbdf06cc/web",
+        "hits": 2
+      },
+      {
+        "id": "/sync/85f603bb-8eaa-4791-84a0-a1c4dbdf06cc",
+        "path": "/sync/85f603bb-8eaa-4791-84a0-a1c4dbdf06cc",
+        "hits": 0
+      },
+      {
+        "id": "/api/v1/pop-up-settings/brands/340",
+        "path": "/api/v1/pop-up-settings/brands/340",
+        "hits": 2
+      },
+      {
+        "id": "/api/v1/pop-up-settings/brands",
+        "path": "/api/v1/pop-up-settings/brands",
+        "hits": 0
+      },
+      {
+        "id": "/api/v1/cookies-consent/public/340",
+        "path": "/api/v1/cookies-consent/public/340",
+        "hits": 2
+      },
+      {
+        "id": "/api/v1/cookies-consent/public",
+        "path": "/api/v1/cookies-consent/public",
+        "hits": 0
+      },
+      {
+        "id": "/_next/data/NOxY1R98IE0sbMDE3VNY5/en/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947/help-desk.json",
+        "path": "/_next/data/NOxY1R98IE0sbMDE3VNY5/en/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947/help-desk.json",
+        "hits": 2
+      },
+      {
+        "id": "/_next/data/NOxY1R98IE0sbMDE3VNY5/en/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947",
+        "path": "/_next/data/NOxY1R98IE0sbMDE3VNY5/en/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947",
+        "hits": 0
+      },
+      {
+        "id": "/script/widget.min.js",
+        "path": "/script/widget.min.js",
+        "hits": 2
+      },
+      {
+        "id": "/script",
+        "path": "/script",
+        "hits": 0
+      },
+      {
+        "id": "/favicon.png",
+        "path": "/favicon.png",
+        "hits": 8
+      },
+      {
+        "id": "/api/v1/automation-tags/check-automation-tags",
+        "path": "/api/v1/automation-tags/check-automation-tags",
+        "hits": 8
+      },
+      {
+        "id": "/api/v1/automation-tags",
+        "path": "/api/v1/automation-tags",
+        "hits": 0
+      },
+      {
+        "id": "/api/v1/working-hours-settings",
+        "path": "/api/v1/working-hours-settings",
+        "hits": 4
+      },
+      {
+        "id": "/api/v1",
+        "path": "/api/v1",
+        "hits": 0
+      },
+      {
+        "id": "/workspace/api/v2/stripe/subscriptions/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947",
+        "path": "/workspace/api/v2/stripe/subscriptions/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947",
+        "hits": 2
+      },
+      {
+        "id": "/workspace/api/v2/stripe/subscriptions/workspaces",
+        "path": "/workspace/api/v2/stripe/subscriptions/workspaces",
+        "hits": 0
+      },
+      {
+        "id": "/api/v1/affiliates/links",
+        "path": "/api/v1/affiliates/links",
+        "hits": 3
+      },
+      {
+        "id": "/api/v1/affiliates",
+        "path": "/api/v1/affiliates",
+        "hits": 0
+      },
+      {
+        "id": "/api/v1/reports/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947/summaries",
+        "path": "/api/v1/reports/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947/summaries",
+        "hits": 2
+      },
+      {
+        "id": "/api/v1/reports/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947",
+        "path": "/api/v1/reports/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947",
+        "hits": 0
+      },
+      {
+        "id": "/api/v1/users/status",
+        "path": "/api/v1/users/status",
+        "hits": 4
+      },
+      {
+        "id": "/workspace/api/v1/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947/add-ons",
+        "path": "/workspace/api/v1/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947/add-ons",
+        "hits": 2
+      },
+      {
+        "id": "/workspace/api/v1/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947",
+        "path": "/workspace/api/v1/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947",
+        "hits": 4
+      },
+      {
+        "id": "/workspace/api/v1/workspaces",
+        "path": "/workspace/api/v1/workspaces",
+        "hits": 0
+      },
+      {
+        "id": "/workspace/api/v1/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947/members",
+        "path": "/workspace/api/v1/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947/members",
+        "hits": 2
+      },
+      {
+        "id": "/api/v1/sites/workspace/83dc2857-4085-4688-ab21-fc4dc8cd8947/all",
+        "path": "/api/v1/sites/workspace/83dc2857-4085-4688-ab21-fc4dc8cd8947/all",
+        "hits": 2
+      },
+      {
+        "id": "/api/v1/sites/workspace/83dc2857-4085-4688-ab21-fc4dc8cd8947",
+        "path": "/api/v1/sites/workspace/83dc2857-4085-4688-ab21-fc4dc8cd8947",
+        "hits": 0
+      },
+      {
+        "id": "/api/v1/tags/all",
+        "path": "/api/v1/tags/all",
+        "hits": 4
+      },
+      {
+        "id": "/api/v1/tags",
+        "path": "/api/v1/tags",
+        "hits": 0
+      },
+      {
+        "id": "/workspace/api/v1/add-ons",
+        "path": "/workspace/api/v1/add-ons",
+        "hits": 4
+      },
+      {
+        "id": "/workspace/api/v1/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947/member-permissions/me",
+        "path": "/workspace/api/v1/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947/member-permissions/me",
+        "hits": 2
+      },
+      {
+        "id": "/workspace/api/v1/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947/member-permissions",
+        "path": "/workspace/api/v1/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947/member-permissions",
+        "hits": 0
+      },
+      {
+        "id": "/api/v1/bots/all-bots",
+        "path": "/api/v1/bots/all-bots",
+        "hits": 4
+      },
+      {
+        "id": "/api/v1/bots",
+        "path": "/api/v1/bots",
+        "hits": 3
+      },
+      {
+        "id": "/api/v1/social-accounts/all",
+        "path": "/api/v1/social-accounts/all",
+        "hits": 4
+      },
+      {
+        "id": "/api/v1/social-accounts",
+        "path": "/api/v1/social-accounts",
+        "hits": 0
+      },
+      {
+        "id": "/api/v1/categories/all",
+        "path": "/api/v1/categories/all",
+        "hits": 3
+      },
+      {
+        "id": "/api/v1/categories",
+        "path": "/api/v1/categories",
+        "hits": 0
+      },
+      {
+        "id": "/api/v1/translation-ticket-default",
+        "path": "/api/v1/translation-ticket-default",
+        "hits": 3
+      },
+      {
+        "id": "/_next/image",
+        "path": "/_next/image",
+        "hits": 12
+      },
+      {
+        "id": "/_next",
+        "path": "/_next",
+        "hits": 0
+      },
+      {
+        "id": "/_next/static/chunks/9387-3d7582e3aa091277.js",
+        "path": "/_next/static/chunks/9387-3d7582e3aa091277.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/530-505582ab1d32bfb4.js",
+        "path": "/_next/static/chunks/530-505582ab1d32bfb4.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/813-ae33283d8ee06957.js",
+        "path": "/_next/static/chunks/813-ae33283d8ee06957.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/pages/workspaces/%5Bworkspace_id%5D/bots-e88e6d6d1e390fd0.js",
+        "path": "/_next/static/chunks/pages/workspaces/%5Bworkspace_id%5D/bots-e88e6d6d1e390fd0.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/css/f7f63877d13b83ec.css",
+        "path": "/_next/static/css/f7f63877d13b83ec.css",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/css/2ba297624a30b35b.css",
+        "path": "/_next/static/css/2ba297624a30b35b.css",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/6854.8f22b8d642782bcb.js",
+        "path": "/_next/static/chunks/6854.8f22b8d642782bcb.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/css/706e79a094b4a8e8.css",
+        "path": "/_next/static/css/706e79a094b4a8e8.css",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/1249.1268325a23c77b44.js",
+        "path": "/_next/static/chunks/1249.1268325a23c77b44.js",
+        "hits": 2
+      },
+      {
+        "id": "/api/v1/teams",
+        "path": "/api/v1/teams",
+        "hits": 4
+      },
+      {
+        "id": "/api/v1/group-chats/count",
+        "path": "/api/v1/group-chats/count",
+        "hits": 1
+      },
+      {
+        "id": "/api/v1/group-chats",
+        "path": "/api/v1/group-chats",
+        "hits": 0
+      },
+      {
+        "id": "/_next/data/NOxY1R98IE0sbMDE3VNY5/en/workspaces/0d84f824-27f2-4723-a46f-166099577b45/bots.json",
+        "path": "/_next/data/NOxY1R98IE0sbMDE3VNY5/en/workspaces/0d84f824-27f2-4723-a46f-166099577b45/bots.json",
+        "hits": 2
+      },
+      {
+        "id": "/_next/data/NOxY1R98IE0sbMDE3VNY5/en/workspaces/0d84f824-27f2-4723-a46f-166099577b45",
+        "path": "/_next/data/NOxY1R98IE0sbMDE3VNY5/en/workspaces/0d84f824-27f2-4723-a46f-166099577b45",
+        "hits": 0
+      },
+      {
+        "id": "/_next/static/css/def2b40e30e2e372.css",
+        "path": "/_next/static/css/def2b40e30e2e372.css",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/1328.0f6b4a40e07f236d.js",
+        "path": "/_next/static/chunks/1328.0f6b4a40e07f236d.js",
+        "hits": 2
+      },
+      {
+        "id": "/workspace/api/v1/workspaces/0d84f824-27f2-4723-a46f-166099577b45/members",
+        "path": "/workspace/api/v1/workspaces/0d84f824-27f2-4723-a46f-166099577b45/members",
+        "hits": 2
+      },
+      {
+        "id": "/workspace/api/v1/workspaces/0d84f824-27f2-4723-a46f-166099577b45",
+        "path": "/workspace/api/v1/workspaces/0d84f824-27f2-4723-a46f-166099577b45",
+        "hits": 4
+      },
+      {
+        "id": "/api/v1/sites/workspace/0d84f824-27f2-4723-a46f-166099577b45/all",
+        "path": "/api/v1/sites/workspace/0d84f824-27f2-4723-a46f-166099577b45/all",
+        "hits": 2
+      },
+      {
+        "id": "/api/v1/sites/workspace/0d84f824-27f2-4723-a46f-166099577b45",
+        "path": "/api/v1/sites/workspace/0d84f824-27f2-4723-a46f-166099577b45",
+        "hits": 0
+      },
+      {
+        "id": "/workspace/api/v1/workspaces/0d84f824-27f2-4723-a46f-166099577b45/member-permissions/me",
+        "path": "/workspace/api/v1/workspaces/0d84f824-27f2-4723-a46f-166099577b45/member-permissions/me",
+        "hits": 2
+      },
+      {
+        "id": "/workspace/api/v1/workspaces/0d84f824-27f2-4723-a46f-166099577b45/member-permissions",
+        "path": "/workspace/api/v1/workspaces/0d84f824-27f2-4723-a46f-166099577b45/member-permissions",
+        "hits": 0
+      },
+      {
+        "id": "/api/v1/view",
+        "path": "/api/v1/view",
+        "hits": 2
+      },
+      {
+        "id": "/api/v1/customer-tags/all",
+        "path": "/api/v1/customer-tags/all",
+        "hits": 4
+      },
+      {
+        "id": "/api/v1/customer-tags",
+        "path": "/api/v1/customer-tags",
+        "hits": 0
+      },
+      {
+        "id": "/_next/static/css/b2c1b4763e0783c8.css",
+        "path": "/_next/static/css/b2c1b4763e0783c8.css",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/css/80c2a309d5a89317.css",
+        "path": "/_next/static/css/80c2a309d5a89317.css",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/css/3e3ca8fd9f79a724.css",
+        "path": "/_next/static/css/3e3ca8fd9f79a724.css",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/css/2e94f223a79af88f.css",
+        "path": "/_next/static/css/2e94f223a79af88f.css",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/css/848403f1cfc423fc.css",
+        "path": "/_next/static/css/848403f1cfc423fc.css",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/css/58549d0bf22ac0db.css",
+        "path": "/_next/static/css/58549d0bf22ac0db.css",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/css/4e4927ddda171d3d.css",
+        "path": "/_next/static/css/4e4927ddda171d3d.css",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/971df74e-727f8aaa8c4af7ca.js",
+        "path": "/_next/static/chunks/971df74e-727f8aaa8c4af7ca.js",
+        "hits": 4
+      },
+      {
+        "id": "/_next/static/chunks/00768e8d.992d423f0c9ceea4.js",
+        "path": "/_next/static/chunks/00768e8d.992d423f0c9ceea4.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/6221-259ce88505ffe51f.js",
+        "path": "/_next/static/chunks/6221-259ce88505ffe51f.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/2266-9c86b88fccfd6482.js",
+        "path": "/_next/static/chunks/2266-9c86b88fccfd6482.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/320-13e14be4da7ad72f.js",
+        "path": "/_next/static/chunks/320-13e14be4da7ad72f.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/8735-53b565059f9fce5c.js",
+        "path": "/_next/static/chunks/8735-53b565059f9fce5c.js",
+        "hits": 4
+      },
+      {
+        "id": "/_next/static/chunks/9564.6c4d428ea16e5325.js",
+        "path": "/_next/static/chunks/9564.6c4d428ea16e5325.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/5571-f5a039f0a78ed5d7.js",
+        "path": "/_next/static/chunks/5571-f5a039f0a78ed5d7.js",
+        "hits": 4
+      },
+      {
+        "id": "/_next/static/chunks/260-baa6725e293552b5.js",
+        "path": "/_next/static/chunks/260-baa6725e293552b5.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/5626.1ce76dd7cb812a83.js",
+        "path": "/_next/static/chunks/5626.1ce76dd7cb812a83.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/2985-d24f85c41d17b722.js",
+        "path": "/_next/static/chunks/2985-d24f85c41d17b722.js",
+        "hits": 4
+      },
+      {
+        "id": "/_next/static/chunks/1769-43de98ea085d5c52.js",
+        "path": "/_next/static/chunks/1769-43de98ea085d5c52.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/6960-50b64182a61b1ae3.js",
+        "path": "/_next/static/chunks/6960-50b64182a61b1ae3.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/8776.d998605910f61323.js",
+        "path": "/_next/static/chunks/8776.d998605910f61323.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/3678.11a99afc8be6c93e.js",
+        "path": "/_next/static/chunks/3678.11a99afc8be6c93e.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/8281.2555786a40aac768.js",
+        "path": "/_next/static/chunks/8281.2555786a40aac768.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/8329.753a2264abc4c0a2.js",
+        "path": "/_next/static/chunks/8329.753a2264abc4c0a2.js",
+        "hits": 2
+      },
+      {
+        "id": "/workspace/api/v2/stripe/subscriptions/workspaces/0d84f824-27f2-4723-a46f-166099577b45",
+        "path": "/workspace/api/v2/stripe/subscriptions/workspaces/0d84f824-27f2-4723-a46f-166099577b45",
+        "hits": 2
+      },
+      {
+        "id": "/api/v1/reports/workspaces/0d84f824-27f2-4723-a46f-166099577b45/summaries",
+        "path": "/api/v1/reports/workspaces/0d84f824-27f2-4723-a46f-166099577b45/summaries",
+        "hits": 2
+      },
+      {
+        "id": "/api/v1/reports/workspaces/0d84f824-27f2-4723-a46f-166099577b45",
+        "path": "/api/v1/reports/workspaces/0d84f824-27f2-4723-a46f-166099577b45",
+        "hits": 0
+      },
+      {
+        "id": "/workspace/api/v1/workspaces/0d84f824-27f2-4723-a46f-166099577b45/add-ons",
+        "path": "/workspace/api/v1/workspaces/0d84f824-27f2-4723-a46f-166099577b45/add-ons",
+        "hits": 2
+      },
+      {
+        "id": "/api/v1/bots/dashboard",
+        "path": "/api/v1/bots/dashboard",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/774.92ca42c6c4302926.js",
+        "path": "/_next/static/chunks/774.92ca42c6c4302926.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/css/75300871cad02aba.css",
+        "path": "/_next/static/css/75300871cad02aba.css",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/9759.28c0262d95cba103.js",
+        "path": "/_next/static/chunks/9759.28c0262d95cba103.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/css/f2a7c32bbcd42600.css",
+        "path": "/_next/static/css/f2a7c32bbcd42600.css",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/7428.11b266e970b6f23f.js",
+        "path": "/_next/static/chunks/7428.11b266e970b6f23f.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/css/dae2e4b43bafcb98.css",
+        "path": "/_next/static/css/dae2e4b43bafcb98.css",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/6515-a37b1fce8fa7024e.js",
+        "path": "/_next/static/chunks/6515-a37b1fce8fa7024e.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/7614.9d13e97b7f33396e.js",
+        "path": "/_next/static/chunks/7614.9d13e97b7f33396e.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/5513.97535f7207396d90.js",
+        "path": "/_next/static/chunks/5513.97535f7207396d90.js",
+        "hits": 2
+      },
+      {
+        "id": "/api/v1/chat-sessions/list",
+        "path": "/api/v1/chat-sessions/list",
+        "hits": 1
+      },
+      {
+        "id": "/api/v1/chat-sessions",
+        "path": "/api/v1/chat-sessions",
+        "hits": 0
+      },
+      {
+        "id": "/svgs/select_conversation.svg",
+        "path": "/svgs/select_conversation.svg",
+        "hits": 2
+      },
+      {
+        "id": "/svgs",
+        "path": "/svgs",
+        "hits": 0
+      },
+      {
+        "id": "/svgs/empty.svg",
+        "path": "/svgs/empty.svg",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/css/8a8648aaeffda71c.css",
+        "path": "/_next/static/css/8a8648aaeffda71c.css",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/2435-d7497142f63dfefd.js",
+        "path": "/_next/static/chunks/2435-d7497142f63dfefd.js",
+        "hits": 2
+      },
+      {
+        "id": "/_next/static/chunks/5791.6b17af3c990a13d9.js",
+        "path": "/_next/static/chunks/5791.6b17af3c990a13d9.js",
+        "hits": 2
+      },
+      {
+        "id": "/svgs/enhance_circle.svg",
+        "path": "/svgs/enhance_circle.svg",
+        "hits": 2
+      },
+      {
+        "id": "/svgs/enhance_star.svg",
+        "path": "/svgs/enhance_star.svg",
+        "hits": 2
+      },
+      {
+        "id": "/svgs/enhance_tag.svg",
+        "path": "/svgs/enhance_tag.svg",
+        "hits": 2
+      },
+      {
+        "id": "/svgs/default_avatar.svg",
+        "path": "/svgs/default_avatar.svg",
+        "hits": 2
+      }
+    ],
+    "edges": [
+      {
+        "from": "/api/v1/notifications",
+        "to": "/api/v1/notifications/unread",
+        "weight": 2
+      },
+      {
+        "from": "/v1",
+        "to": "/v1/traces",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1/users",
+        "to": "/api/v1/users/me",
+        "weight": 1
+      },
+      {
+        "from": "/auth/api/v1/auth",
+        "to": "/auth/api/v1/auth/sign-in",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1/customer-profiles",
+        "to": "/api/v1/customer-profiles/set",
+        "weight": 1
+      },
+      {
+        "from": "/api/v2/tracking-session/d84da622-5684-4472-8028-bbc8394b2ae3/identify",
+        "to": "/api/v2/tracking-session/d84da622-5684-4472-8028-bbc8394b2ae3/identify/fdd7bd7e-1c8c-45cf-984f-5bc91650cf54",
+        "weight": 1
+      },
+      {
+        "from": "/workspace/api/v1",
+        "to": "/workspace/api/v1/extra-packages",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1/global-variables/public",
+        "to": "/api/v1/global-variables/public/customer",
+        "weight": 1
+      },
+      {
+        "from": "/workspace/api/v1/users",
+        "to": "/workspace/api/v1/users/workspaces",
+        "weight": 1
+      },
+      {
+        "from": "/inter",
+        "to": "/inter/inter.css",
+        "weight": 1
+      },
+      {
+        "from": "/en_US",
+        "to": "/en_US/sdk.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/webpack-52b6c245f09b0817.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/framework-f293fd0d457204a1.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/main-941f86c5083b282f.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks/pages",
+        "to": "/_next/static/chunks/pages/_app-d52d47154d5255a9.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks/pages",
+        "to": "/_next/static/chunks/pages/index-9f63666859a8c3cd.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/NOxY1R98IE0sbMDE3VNY5",
+        "to": "/_next/static/NOxY1R98IE0sbMDE3VNY5/_buildManifest.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/NOxY1R98IE0sbMDE3VNY5",
+        "to": "/_next/static/NOxY1R98IE0sbMDE3VNY5/_ssgManifest.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/css",
+        "to": "/_next/static/css/4588879c6d0412a8.css",
+        "weight": 1
+      },
+      {
+        "from": "/en_US/bundle",
+        "to": "/en_US/bundle/sdk.js/",
+        "weight": 1
+      },
+      {
+        "from": "/api/v2",
+        "to": "/api/v2/tracking-session-data",
+        "weight": 1
+      },
+      {
+        "from": "/inter/font-files",
+        "to": "/inter/font-files/Inter-Italic.woff2",
+        "weight": 1
+      },
+      {
+        "from": "/inter/font-files",
+        "to": "/inter/font-files/Inter-SemiBoldItalic.woff2",
+        "weight": 1
+      },
+      {
+        "from": "/fonts",
+        "to": "/fonts/icomoon.ttf",
+        "weight": 1
+      },
+      {
+        "from": "/l",
+        "to": "/l/font",
+        "weight": 1
+      },
+      {
+        "from": "/s/inter/v20",
+        "to": "/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7W0Q5n-wU.woff2",
+        "weight": 1
+      },
+      {
+        "from": "/s/inter/v20",
+        "to": "/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7W0Q5n-wU.woff2",
+        "weight": 1
+      },
+      {
+        "from": "/s/inter/v20",
+        "to": "/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1/flows",
+        "to": "/api/v1/flows/available-flow",
+        "weight": 1
+      },
+      {
+        "from": "/sdks/web/v16",
+        "to": "/sdks/web/v16/OneSignalSDK.page.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/29107295-4b6b11fb36698fb7.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/7668-72814a544dcf1c57.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/2081-74786995af3eb7ed.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/7412-9d0973a44ba6f99d.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/4358-306b70d686b5ed2d.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/9111-3006f2b80546d592.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks/pages/workspaces/%5Bworkspace_id%5D",
+        "to": "/_next/static/chunks/pages/workspaces/%5Bworkspace_id%5D/help-desk-281594299f8aee4f.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/css",
+        "to": "/_next/static/css/f9341942e7029917.css",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/3c8ae537.e37cb0fd1ce3af70.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/css",
+        "to": "/_next/static/css/e6de7a9fc1becc82.css",
+        "weight": 1
+      },
+      {
+        "from": "/",
+        "to": "/css2",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/css",
+        "to": "/_next/static/css/6f5acd0ba2996c5e.css",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/9b6a58c0.db8cdfe2498388e3.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/e4627d95.cd42ad16ce530b8f.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/e35b4ce9.b110931f64459cb5.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/43c93402.17281a76d6b328c9.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/635f76e7.18d0f1292c6b6a17.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/7cac3590.dbbcde698657ec31.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/6724.f5a56e0ed2b3255e.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/5454.7770bf147c7f7848.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/8624.61203acc3f3029fe.js",
+        "weight": 1
+      },
+      {
+        "from": "/gsi",
+        "to": "/gsi/client",
+        "weight": 1
+      },
+      {
+        "from": "/",
+        "to": "/rw.js",
+        "weight": 1
+      },
+      {
+        "from": "/c",
+        "to": "/c/hotjar-3627134.js",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1/packages",
+        "to": "/api/v1/packages/public",
+        "weight": 1
+      },
+      {
+        "from": "/sub",
+        "to": "/sub/sdk-wcjDAQDAx0nUHHi",
+        "weight": 1
+      },
+      {
+        "from": "/script/v2",
+        "to": "/script/v2/tracker.umd.js",
+        "weight": 1
+      },
+      {
+        "from": "/sdks/web/v16",
+        "to": "/sdks/web/v16/OneSignalSDK.page.es6.js",
+        "weight": 1
+      },
+      {
+        "from": "/",
+        "to": "/modules.6a0f3932cb1341a35c18.js",
+        "weight": 1
+      },
+      {
+        "from": "/sync/85f603bb-8eaa-4791-84a0-a1c4dbdf06cc",
+        "to": "/sync/85f603bb-8eaa-4791-84a0-a1c4dbdf06cc/web",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1/pop-up-settings/brands",
+        "to": "/api/v1/pop-up-settings/brands/340",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1/cookies-consent/public",
+        "to": "/api/v1/cookies-consent/public/340",
+        "weight": 1
+      },
+      {
+        "from": "/_next/data/NOxY1R98IE0sbMDE3VNY5/en/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947",
+        "to": "/_next/data/NOxY1R98IE0sbMDE3VNY5/en/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947/help-desk.json",
+        "weight": 1
+      },
+      {
+        "from": "/script",
+        "to": "/script/widget.min.js",
+        "weight": 1
+      },
+      {
+        "from": "/",
+        "to": "/favicon.png",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1/automation-tags",
+        "to": "/api/v1/automation-tags/check-automation-tags",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1",
+        "to": "/api/v1/working-hours-settings",
+        "weight": 2
+      },
+      {
+        "from": "/workspace/api/v2/stripe/subscriptions/workspaces",
+        "to": "/workspace/api/v2/stripe/subscriptions/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1/affiliates",
+        "to": "/api/v1/affiliates/links",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1/reports/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947",
+        "to": "/api/v1/reports/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947/summaries",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1/users",
+        "to": "/api/v1/users/status",
+        "weight": 2
+      },
+      {
+        "from": "/workspace/api/v1/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947",
+        "to": "/workspace/api/v1/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947/add-ons",
+        "weight": 1
+      },
+      {
+        "from": "/workspace/api/v1/workspaces",
+        "to": "/workspace/api/v1/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947",
+        "weight": 1
+      },
+      {
+        "from": "/workspace/api/v1/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947",
+        "to": "/workspace/api/v1/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947/members",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1/sites/workspace/83dc2857-4085-4688-ab21-fc4dc8cd8947",
+        "to": "/api/v1/sites/workspace/83dc2857-4085-4688-ab21-fc4dc8cd8947/all",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1/tags",
+        "to": "/api/v1/tags/all",
+        "weight": 2
+      },
+      {
+        "from": "/workspace/api/v1",
+        "to": "/workspace/api/v1/add-ons",
+        "weight": 2
+      },
+      {
+        "from": "/workspace/api/v1/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947/member-permissions",
+        "to": "/workspace/api/v1/workspaces/83dc2857-4085-4688-ab21-fc4dc8cd8947/member-permissions/me",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1/bots",
+        "to": "/api/v1/bots/all-bots",
+        "weight": 2
+      },
+      {
+        "from": "/api/v1/social-accounts",
+        "to": "/api/v1/social-accounts/all",
+        "weight": 2
+      },
+      {
+        "from": "/api/v1/categories",
+        "to": "/api/v1/categories/all",
+        "weight": 2
+      },
+      {
+        "from": "/api/v1",
+        "to": "/api/v1/translation-ticket-default",
+        "weight": 1
+      },
+      {
+        "from": "/_next",
+        "to": "/_next/image",
+        "weight": 6
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/9387-3d7582e3aa091277.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/530-505582ab1d32bfb4.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/813-ae33283d8ee06957.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks/pages/workspaces/%5Bworkspace_id%5D",
+        "to": "/_next/static/chunks/pages/workspaces/%5Bworkspace_id%5D/bots-e88e6d6d1e390fd0.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/css",
+        "to": "/_next/static/css/f7f63877d13b83ec.css",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/css",
+        "to": "/_next/static/css/2ba297624a30b35b.css",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/6854.8f22b8d642782bcb.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/css",
+        "to": "/_next/static/css/706e79a094b4a8e8.css",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/1249.1268325a23c77b44.js",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1",
+        "to": "/api/v1/teams",
+        "weight": 2
+      },
+      {
+        "from": "/api/v1/group-chats",
+        "to": "/api/v1/group-chats/count",
+        "weight": 1
+      },
+      {
+        "from": "/_next/data/NOxY1R98IE0sbMDE3VNY5/en/workspaces/0d84f824-27f2-4723-a46f-166099577b45",
+        "to": "/_next/data/NOxY1R98IE0sbMDE3VNY5/en/workspaces/0d84f824-27f2-4723-a46f-166099577b45/bots.json",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/css",
+        "to": "/_next/static/css/def2b40e30e2e372.css",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/1328.0f6b4a40e07f236d.js",
+        "weight": 1
+      },
+      {
+        "from": "/workspace/api/v1/workspaces/0d84f824-27f2-4723-a46f-166099577b45",
+        "to": "/workspace/api/v1/workspaces/0d84f824-27f2-4723-a46f-166099577b45/members",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1/sites/workspace/0d84f824-27f2-4723-a46f-166099577b45",
+        "to": "/api/v1/sites/workspace/0d84f824-27f2-4723-a46f-166099577b45/all",
+        "weight": 1
+      },
+      {
+        "from": "/workspace/api/v1/workspaces/0d84f824-27f2-4723-a46f-166099577b45/member-permissions",
+        "to": "/workspace/api/v1/workspaces/0d84f824-27f2-4723-a46f-166099577b45/member-permissions/me",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1",
+        "to": "/api/v1/view",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1/customer-tags",
+        "to": "/api/v1/customer-tags/all",
+        "weight": 2
+      },
+      {
+        "from": "/api/v1",
+        "to": "/api/v1/bots",
+        "weight": 2
+      },
+      {
+        "from": "/_next/static/css",
+        "to": "/_next/static/css/b2c1b4763e0783c8.css",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/css",
+        "to": "/_next/static/css/80c2a309d5a89317.css",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/css",
+        "to": "/_next/static/css/3e3ca8fd9f79a724.css",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/css",
+        "to": "/_next/static/css/2e94f223a79af88f.css",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/css",
+        "to": "/_next/static/css/848403f1cfc423fc.css",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/css",
+        "to": "/_next/static/css/58549d0bf22ac0db.css",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/css",
+        "to": "/_next/static/css/4e4927ddda171d3d.css",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/971df74e-727f8aaa8c4af7ca.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/00768e8d.992d423f0c9ceea4.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/6221-259ce88505ffe51f.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/2266-9c86b88fccfd6482.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/320-13e14be4da7ad72f.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/8735-53b565059f9fce5c.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/9564.6c4d428ea16e5325.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/5571-f5a039f0a78ed5d7.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/260-baa6725e293552b5.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/5626.1ce76dd7cb812a83.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/2985-d24f85c41d17b722.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/1769-43de98ea085d5c52.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/6960-50b64182a61b1ae3.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/8776.d998605910f61323.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/3678.11a99afc8be6c93e.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/8281.2555786a40aac768.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/8329.753a2264abc4c0a2.js",
+        "weight": 1
+      },
+      {
+        "from": "/workspace/api/v2/stripe/subscriptions/workspaces",
+        "to": "/workspace/api/v2/stripe/subscriptions/workspaces/0d84f824-27f2-4723-a46f-166099577b45",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1/reports/workspaces/0d84f824-27f2-4723-a46f-166099577b45",
+        "to": "/api/v1/reports/workspaces/0d84f824-27f2-4723-a46f-166099577b45/summaries",
+        "weight": 1
+      },
+      {
+        "from": "/workspace/api/v1/workspaces/0d84f824-27f2-4723-a46f-166099577b45",
+        "to": "/workspace/api/v1/workspaces/0d84f824-27f2-4723-a46f-166099577b45/add-ons",
+        "weight": 1
+      },
+      {
+        "from": "/workspace/api/v1/workspaces",
+        "to": "/workspace/api/v1/workspaces/0d84f824-27f2-4723-a46f-166099577b45",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1/bots",
+        "to": "/api/v1/bots/dashboard",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/774.92ca42c6c4302926.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/css",
+        "to": "/_next/static/css/75300871cad02aba.css",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/9759.28c0262d95cba103.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/css",
+        "to": "/_next/static/css/f2a7c32bbcd42600.css",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/7428.11b266e970b6f23f.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/css",
+        "to": "/_next/static/css/dae2e4b43bafcb98.css",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/6515-a37b1fce8fa7024e.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/7614.9d13e97b7f33396e.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/5513.97535f7207396d90.js",
+        "weight": 1
+      },
+      {
+        "from": "/api/v1/chat-sessions",
+        "to": "/api/v1/chat-sessions/list",
+        "weight": 1
+      },
+      {
+        "from": "/svgs",
+        "to": "/svgs/select_conversation.svg",
+        "weight": 1
+      },
+      {
+        "from": "/svgs",
+        "to": "/svgs/empty.svg",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/css",
+        "to": "/_next/static/css/8a8648aaeffda71c.css",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/2435-d7497142f63dfefd.js",
+        "weight": 1
+      },
+      {
+        "from": "/_next/static/chunks",
+        "to": "/_next/static/chunks/5791.6b17af3c990a13d9.js",
+        "weight": 1
+      },
+      {
+        "from": "/svgs",
+        "to": "/svgs/enhance_circle.svg",
+        "weight": 1
+      },
+      {
+        "from": "/svgs",
+        "to": "/svgs/enhance_star.svg",
+        "weight": 1
+      },
+      {
+        "from": "/svgs",
+        "to": "/svgs/enhance_tag.svg",
+        "weight": 1
+      },
+      {
+        "from": "/svgs",
+        "to": "/svgs/default_avatar.svg",
+        "weight": 1
+      }
+    ]
+  },
+  "raw": {
+    "crawler": {
+      "visited": [
+        "https://app.cxgenie.ai/"
+      ],
+      "links": [],
+      "activity": [
+        {
+          "url": "https://app.cxgenie.ai/",
+          "path": "/",
+          "depth": 0,
+          "clicked": 0,
+          "submitted": 0,
+          "linkCount": 0
+        }
+      ]
+    },
+    "validationAttempts": [
+      {
+        "path": "/api/v1/notifications/unread",
+        "status": 404,
+        "durationMs": 226,
+        "error": null
+      },
+      {
+        "path": "/v1/traces",
+        "status": 404,
+        "durationMs": 116,
+        "error": null
+      },
+      {
+        "path": "/api/v1/users/me",
+        "status": 404,
+        "durationMs": 220,
+        "error": null
+      },
+      {
+        "path": "/auth/api/v1/auth/sign-in",
+        "status": 404,
+        "durationMs": 117,
+        "error": null
+      },
+      {
+        "path": "/api/v1/customer-profiles/set",
+        "status": 404,
+        "durationMs": 128,
+        "error": null
+      },
+      {
+        "path": "/api/v2/tracking-session/d84da622-5684-4472-8028-bbc8394b2ae3/identify/fdd7bd7e-1c8c-45cf-984f-5bc91650cf54",
+        "status": 404,
+        "durationMs": 46,
+        "error": null
+      },
+      {
+        "path": "/workspace/api/v1/extra-packages",
+        "status": 404,
+        "durationMs": 41,
+        "error": null
+      },
+      {
+        "path": "/api/v1/global-variables/public/customer",
+        "status": 404,
+        "durationMs": 219,
+        "error": null
+      },
+      {
+        "path": "/workspace/api/v1/users/workspaces",
+        "status": 404,
+        "durationMs": 55,
+        "error": null
+      },
+      {
+        "path": "/api/v2/tracking-session-data",
+        "status": 404,
+        "durationMs": 50,
+        "error": null
+      },
+      {
+        "path": "/api/v1/flows/available-flow",
+        "status": 404,
+        "durationMs": 146,
+        "error": null
+      },
+      {
+        "path": "/api/v1/packages/public",
+        "status": 404,
+        "durationMs": 40,
+        "error": null
+      },
+      {
+        "path": "/api/v1/pop-up-settings/brands/340",
+        "status": 404,
+        "durationMs": 60,
+        "error": null
+      },
+      {
+        "path": "/api/v1/cookies-consent/public/340",
+        "status": 404,
+        "durationMs": 240,
+        "error": null
+      },
+      {
+        "path": "/api/users",
+        "status": 404,
+        "durationMs": 43,
+        "error": null
+      },
+      {
+        "path": "/api/orders",
+        "status": 404,
+        "durationMs": 50,
+        "error": null
+      },
+      {
+        "path": "/api/profile",
+        "status": 404,
+        "durationMs": 43,
+        "error": null
+      },
+      {
+        "path": "/api/admin",
+        "status": 404,
+        "durationMs": 46,
+        "error": null
+      },
+      {
+        "path": "/api/settings",
+        "status": 404,
+        "durationMs": 44,
+        "error": null
+      },
+      {
+        "path": "/api/reports",
+        "status": 404,
+        "durationMs": 43,
+        "error": null
+      },
+      {
+        "path": "/api/billing",
+        "status": 404,
+        "durationMs": 68,
+        "error": null
+      },
+      {
+        "path": "/api/users/me",
+        "status": 404,
+        "durationMs": 47,
+        "error": null
+      },
+      {
+        "path": "/api/users/1",
+        "status": 404,
+        "durationMs": 42,
+        "error": null
+      },
+      {
+        "path": "/api/users/2",
+        "status": 404,
+        "durationMs": 50,
+        "error": null
+      },
+      {
+        "path": "/api/admin/users",
+        "status": 404,
+        "durationMs": 47,
+        "error": null
+      },
+      {
+        "path": "/api/orders/1",
+        "status": 404,
+        "durationMs": 54,
+        "error": null
+      },
+      {
+        "path": "/api/orders/2",
+        "status": 404,
+        "durationMs": 42,
+        "error": null
+      },
+      {
+        "path": "/api/orders/search",
+        "status": 404,
+        "durationMs": 44,
+        "error": null
+      },
+      {
+        "path": "/api/admin/audit",
+        "status": 404,
+        "durationMs": 47,
+        "error": null
+      },
+      {
+        "path": "/api/admin/config",
+        "status": 404,
+        "durationMs": 45,
+        "error": null
+      }
+    ],
+    "multiUserResults": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "bugbounty-automation",
+  "version": "1.0.0",
+  "description": "Automated web/API security scanner with realtime dashboard",
+  "main": "runner/index.js",
+  "scripts": {
+    "scan": "node runner/index.js",
+    "server": "node server/index.js",
+    "dashboard:dev": "npm --prefix web/dashboard run dev",
+    "dashboard:build": "npm --prefix web/dashboard run build"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "playwright": "^1.52.0",
+    "ws": "^8.18.0"
+  }
+}
